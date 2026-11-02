@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+:root {
+    --cor01: #F5EBDD;
+    --cor02: #3E2723;
+    --cor03: #FFF8E7;
+    --cor04: #2E5D4B;
+    --cor05: #C49A52;
+
+    --fonte-padrao: Arial, Helvetica, sans-serif;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: var(--cor01);
+    font-family: var(--fonte-padrao);
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor03), var(--cor05));
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+nav {
+    text-align: center;
+    padding: 10px 15px;
+    margin: 20px;
+    border: 2px solid var(--cor05);
+    background-image: linear-gradient(to bottom, var(--cor02), transparent);
+}
+
+nav > a {
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+}
+
+
+nav > a:hover {
+    color: var(--cor04);
+    text-decoration: underline;
+}
+
+header h1 {
+    color: var(--cor02);
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+}
+
+header > p {
+    text-align: justify;
+    padding: 15px;
+    margin: 5px;
+}
+
+section > p {
+    color: #3E2723;
+    text-indent: 30px;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+.subtitulos {
+    color: var(--cor04);
+    padding: 10px;
+    text-align: center;
+    border-bottom: 3px solid var(--cor02);
+
+}
+
+.sketch {
+    color: var(--cor04);
+    text-align: center;
+    border: 2px dashed;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.bible {
+    color: var(--cor04);
+    text-align: center;
+
+}
+
+main {
+    background-color: var(--cor03);
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;
+    padding: 25px;
+    min-height: 900px;
+    color: black;
+    box-shadow: 10px 5px 3px rgba(0, 0, 0, 0.185);
+    border: 3px solid var(--cor05);
+}
+
+.img {
+    display: block;
+    text-align: center
+
+  
+}
+
+.img img {
+    width: 100%;
+    max-width: 500px;
+    padding-top: 50px;
+}
+
+footer {
+    background-image: linear-gradient(to right, var(--cor04), var(--cor05));
+    color: black;
+    padding: 25px;
+    text-align: center;
+    border-top: 3px solid var(--cor02);
+}
+
+footer a {
+    color: var(--cor03);
+}
+
+footer a:hover {
+    color: var(--cor04);
+    text-decoration: underline;
+}
+
