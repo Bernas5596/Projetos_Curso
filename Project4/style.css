@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Kings&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: var(--color02);
+    font-family: var(--font-highlight);
+    color: var(--color01);
+}
+
+:root {
+    --color01: #F2E8D5;
+    --color02: #E1CEAA;
+    --color03: #8B5E3C;
+    --color04: #302A25;
+    --color05: #566B48;
+
+    --font-highlight: "Eagle Lake", serif;
+    --font-text: "Kings", cursive;
+}
+
+header {
+    background-color: var(--color04);
+    padding: 15px;
+    margin: 10px 5px;
+    border-radius: 10px;
+    text-shadow: 3px 2px 1px rgba(0, 0, 0, 0.164);
+}
+
+header h1 {
+    text-align: center;
+    font-family: var(--font-text);
+    font-size: 2.5em;
+    color: var(--color05);
+    padding: 15px;
+}
+
+header > p {
+    text-align: justify;
+    text-indent: 30px;
+}
+
+main {
+    background-color: var(--color03);
+    min-width: 300px;
+    max-width: 2000px;
+    width: 100%;
+    padding: 15px;
+    margin: auto;
+    border: 2px solid rgba(0, 0, 0, 0.164);
+}
+
+.content h2 {
+    text-align: center;
+    color: var(--color02);
+    padding: 10px;
+    text-shadow: 3px 2px 1px rgba(0, 0, 0, 0.164);
+    font-family: var(--font-text);
+    font-size: 2.5em;
+}
+
+p {
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.8em;
+    text-shadow: 3px 2px 1px rgba(0, 0, 0, 0.041);
+    padding: 5px;
+    font-size: var(--font-highlight);
+}
+
+nav {
+    background-color: var(--color05);
+    padding: 15px;
+    text-align: center;
+}
+
+nav > a {
+    color: var(--color04);
+    padding: 5px 6px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: var(--color01);
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+article h2 {
+    text-align: center;
+    padding: 15px;
+    background-color: var(--color02);
+    text-shadow: 3px 2px 1px rgba(0, 0, 0, 0.164);
+}
+
+article h2:hover {
+    color: var(--color05);
+    text-decoration: underline;
+}
+
+ul {
+    list-style-position: inside;
+    padding: 10px;
+}
+
+ol {
+    list-style-position: inside;
+    padding: 10px;
+    text-align: right;
+}
+
+
+.img1 {
+    background: var(--color05) url(images/Landscape-1.png) right center no-repeat fixed;
+    background-size: cover;
+}
+
+.img2 {
+    background: var(--color05) url(images/Landscape-2.png) right center no-repeat fixed;
+    background-size: cover;
+}
+
+.img3 {
+    background: var(--color05) url(images/Landscape-3.png) right center no-repeat fixed;
+    background-size: cover;
+}
+
+.img1, .img2, .img3 {
+    min-height: 500px;
+    padding: 40px 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: var(--color01);
+    color: var(--color03);
+    padding: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--color02);
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: var(--color05);
+}
+
